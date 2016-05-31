@@ -13,10 +13,10 @@ I created python files on the go when I watched the lectures to document every i
 The notes are in the python files explaining each step with extra notes on what to avoid and what to take note of for that particular script.
 
 ### Links to Coursera Courses by the University of Michigan
-<a href="https://www.coursera.org/specializations/python">Specialisation</a>
-1. <a href="https://www.coursera.org/learn/python">Getting Started with Python</a>
-2. <a href="https://www.coursera.org/learn/python-data">Python Data Structures</a>
-3. <a href="https://www.coursera.org/learn/python-network-data">Using Python to Access Web Data</a>
+<a href="https://www.coursera.org/specializations/python">Specialisation</a><br />
+1. <a href="https://www.coursera.org/learn/python">Getting Started with Python</a><br />
+2. <a href="https://www.coursera.org/learn/python-data">Python Data Structures</a><br />
+3. <a href="https://www.coursera.org/learn/python-network-data">Using Python to Access Web Data</a><br />
 4. <a href="https://www.coursera.org/learn/python-databases">Using Databases with Python</a>
 
 ### Author
