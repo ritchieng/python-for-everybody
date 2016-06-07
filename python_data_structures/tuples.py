@@ -19,7 +19,7 @@ print " "
 z = (5, 4, 3)
 # z[0] = 1
 # This does not work as a tuple is immutable
-print z
+print z[0]
 
 print " "
 
