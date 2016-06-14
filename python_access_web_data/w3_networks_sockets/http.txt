@@ -1,0 +1,35 @@
+HyperText Transport Protocol (HTTP)
+    Set of rules to allow web browsers to retrieve web documents from
+    servers around the world
+
+    Internet Engineering Task Force (IETF)
+
+Uniform Resource Locator (URL)
+    Protocol: http
+    Host: www.ritchieng.com
+    Document: /page1.html
+
+Request Response Cycle
+    Click --> event in browser
+    Browser makes connection to server
+    Makes application GET request
+    Server respond
+
+    1. GET
+    2. RETRIEVE
+    3. DISPLAY
+
+telnet command
+    telnet www.dr-chuck.com 80
+    GET http://www.dr-chuck.com/page1.htm HTTP/1.0
+    PRESS ENTER TWICE
+    RETRIEVES
+    DISPLAY
+
+Summary
+    Open a socket
+    Send a GET
+    Send a new line
+    GET back the document
+    Display the document
+    DO IT OVER AND OVE

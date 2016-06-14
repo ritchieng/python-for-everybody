@@ -1,0 +1,14 @@
+Web Services
+
+Sending data across the web
+Dictionary -->(serialize) Wire Protocol (XML and JSON) -->(de-serialize) Java Hashmap
+    Serialize:
+        taking internal structure and creating wire format (XML/JSON)
+    De-serialize:
+        taking wire format & creating internal structures in diff languages
+        allows creating different applications that work in different languages
+
+JSON: Javascript Object Notation
+XML: eXtensible Markup Language
+
+REST

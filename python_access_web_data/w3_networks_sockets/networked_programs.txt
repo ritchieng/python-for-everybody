@@ -1,0 +1,38 @@
+Transport Control Protocol (TCP)
+    Built on top of Internet Protocol (IP)
+
+
+TCP Connections or Sockets
+    Internet or network socket is an endpoint of a bidirectional
+    inter-process communication flow across an IP-based computer network,
+    such as the Internet.
+
+    Like a phone call between two applications
+
+    fhandle --> port to look out to exchange data through a socket
+
+TCP Port Numbers
+    Port is an application-specific or process-specific
+    communications endpoint
+
+    Allows multiple networked applications to coexist on same server
+
+    List of well-known TCP port numbers
+        HTTP 80
+        HTTPS 443
+        SSH
+        IMAP
+        POP
+        DNS
+        SMTP 25
+        FTP
+
+    Similar to extensions in phone numbers
+
+    Example:
+    1. Domain name: www.ritchieng.com
+    2. IP Address: 199.10.0.10
+        2a. Email: port 25
+        2b. Login: port 23
+        2c. Web server: port 80
+        2d. Personal mail: port 109

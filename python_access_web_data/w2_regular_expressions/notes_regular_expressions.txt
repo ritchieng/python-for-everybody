@@ -1,0 +1,9 @@
+Regular Expression: regex or regexp
+- specialised in string matching
+- clever wild card expressions for matching and parsing strings
+
+
+Import regex
+    import re
+    re.search()
+    re.findall()

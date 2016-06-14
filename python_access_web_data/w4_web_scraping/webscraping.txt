@@ -1,0 +1,18 @@
+Web Scraping
+    Program/script that pretends to be a browser
+        retrieves web pages
+        looks
+        extracts
+        looks at more
+    Search Engines do this
+        Web Crawling
+
+
+Browser sends GET
+Server responds with HTML
+    Request Response Cycle
+        Click --> event in browser
+        Browser makes connection to server
+        Makes application GET request
+        Server respond
+

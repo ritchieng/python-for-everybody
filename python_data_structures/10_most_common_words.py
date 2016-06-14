@@ -24,6 +24,7 @@ for key, val in counts.items():
 
 # Sort based on highest value
 lst.sort(reverse=True)
+print lst
 
 # Print 10 most common words based on key and value
 for val, key in lst[:10]:
