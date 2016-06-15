@@ -1,0 +1,60 @@
+XML (eXtensible Markup Language)
+    View as a tree of nodes (elements and nodes)
+
+Elements
+    Simple element: just tags including text
+    Complex element: include other tags
+
+Tags
+    Start/end tag
+    Attributes
+    Text Content
+    Self closing tag
+Your tags are customised based on what is most useful
+    <ingredients></ingredients>
+
+White space do not matter
+
+Tree of nodes
+<a>
+    <b w="5">
+        <c>text</c>
+    <d>
+/a/b/c
+/a/d/
+
+
+VALIDATION
+    XML Document & XML Schema Contract  --> valid/invalid
+
+XML Schema Contract
+<xs:complexType name="person">
+    <xs:sequence>
+        <xs:element
+
+XML from W3C (.xsd): XML Schema / XSD Structure / W3C Schema
+    xs: element
+    xs: sequence
+    xd: complexType
+
+<xs:complexType
+    <xs:sequence
+        <xs:element name="full_name" type="xs:string"
+        minOccurs="1" maxOccurs="1"/>
+
+Types
+    xs:"string"
+    xs:"date"
+    xs:"dateTime"
+    xs:"decimal"
+    xs:"integer"
+
+Time representation ISO 8601 Date/time format
+YYYY-MM-DDTHH:MM:SSZ
+    T
+    Z: time zone
+
+minOccurs = 0 (optional)
+minOccurs = 1 (compulsory)
+maxOccurs="unbounded" (as many as possible)
+base="xs:string" --> x number of options
