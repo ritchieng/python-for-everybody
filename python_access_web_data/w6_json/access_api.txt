@@ -1,0 +1,5 @@
+SOAP (Simple Object Access Protocol)
+- Remote programs/code which we use over the network
+
+REST (Representational State Transfer)
+Remote resources we create, read, update and delete remotely

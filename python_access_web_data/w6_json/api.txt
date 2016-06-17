@@ -1,0 +1,27 @@
+Rate limiting
+    You can make a certain number of calls per day
+
+If you want to exceed rate
+    Start/stop for n-days to cover everything
+
+Twitter
+    Create app
+    Get hidden.py details from the app page
+    You access with signature (OAuth)
+
+Service Oriented Architecture
+    Allows an application to be broken into parts and distributed across
+    networks
+
+Application Programming Interface (API)
+    Contract for interaction
+
+Web Services
+    Provide infrastructure for applications cooperating (an API)
+    over a network
+    Two styles of web services
+        SOAP (Simple Object Access Protocol) - Rarely used
+        REST (Representational State Transfer)
+
+Serialization Formats
+    XML and JSON

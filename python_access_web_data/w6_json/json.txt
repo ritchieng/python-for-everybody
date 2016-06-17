@@ -1,0 +1,6 @@
+JSON
+    Doesn't do well with infinite nested nodes
+    Key-value pairs separated by :
+
+List: array
+Dictionary: object
