@@ -1,0 +1,33 @@
+# CREATE TABLE
+
+CREATE TABLE Users(
+	name VARCHAR(128),
+	email VARCHAR(128)
+)
+
+# DELETE TABLE
+DROP TABLE IF EXISTS Users
+
+# INSERT
+INSERT INTO Users (name, email) VALUES ('Kristin', 'kf@me.com')
+
+# UPDATE
+UPDATE Users SET name='Charles' WHERE email='fred@live.com'
+
+# Retrieve
+# * all rows
+SELECT * FROM Users WHERE email='fred@live.com'
+SELECT * FROM Users ORDER BY email
+SELECT * FROM Users ORDER BY name
+
+# DELETE
+DELETE FROM Users WHERE email='sally@me.com'
+
+# Delete everything
+DELETE FROM Users
+
+# Count number of rows or users
+SELECT COUNT(*) FROM Users
+
+#
+SELECT hex(name || age) AS X FROM Ages ORDER BY X

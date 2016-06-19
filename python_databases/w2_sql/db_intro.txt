@@ -1,0 +1,29 @@
+INTRODUCTION TO DATABASES
+
+Relational Databases
+    Storing rows and columns in tables
+    Multiple tables
+    Relationship between tables
+
+Database: contains many tables
+
+Relation (table): contains tuples and attributes (variables/fields)
+
+Tuple (row): a set of fields that generally represents an "object" like
+             person or a music track
+
+Attribute (column/field): one of possibly many elements of data
+                          corresponding to the object represented in the row
+
+Structured Query Language (SQL): language to issue commands to the databases
+    Create data
+    Retrieve data
+    Update data
+    Delete data
+    CRUD!
+
+Abstraction of complexity of SQL
+    We communicate with SQL instead of the database directly
+
+Python cleans data
+SQL CRUD data

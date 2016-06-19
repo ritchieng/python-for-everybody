@@ -1,0 +1,19 @@
+Object Life Cycle
+    Objects are created, used and discarded
+    Special blocks of code (methods) that get called
+        During creation (constructor) - common
+        During destruction (destructor) - rare
+
+Constructor
+    Set up some instance variables to have proper
+    initial values when the object is created
+
+    Constructor in a class is a special block of statements
+    called when an object is created
+
+Many Instances
+    We can create many objects (using class as template for object)
+
+    We can store each distinct object in its own variable
+
+    Each instance have its own copy of the instance variables

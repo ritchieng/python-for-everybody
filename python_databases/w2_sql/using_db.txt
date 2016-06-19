@@ -1,0 +1,28 @@
+USING DATABASES
+
+Roles in Large Projects
+    Application developer: builds logic, looks, and monitors
+    Database Administrator: design, implementation etc.
+
+Data Analysis Structure
+    1. Read & clean input data (Python)
+    2. CUD data (SQL)
+    3. Read data (SQL)
+    4. Output files (R/Excel/D3.js) (Python)
+
+Database Model or Database Schema
+    Structure or format of a database
+    Application of a data model in conjunction with a database management system
+
+Common Database Systems
+    Oracle: large, commercial, enterprise-scale, very very tweakable
+    MySql (open-source): simpler but fast and scalable - commercial open-source
+        Use for online website
+    SqlServer: from Microsoft (Access)
+    Postgress (open-source): imitation of Oracle
+
+    SQLite: Embedded database (built in Python using import)
+
+
+
+

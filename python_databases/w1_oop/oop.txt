@@ -1,0 +1,29 @@
+Program is made up of many coordinating objects
+    Each object is a "little island"
+    Cooperatively working with one another
+    Objects make use of one another's capabilities
+
+Object
+    self-contained code and data
+        String objects
+        Integer objects
+        Dictionary objects
+        List objects
+
+Object-approach
+    Break problem into smaller parts
+    Hide complex parts
+        Represent easier framework
+        You care about the interactions
+
+INPUT --> (COORDINATING OBJECTS) --> OUTPUT
+            bits of code/data
+
+OOP
+    Structured approach to code reuse
+
+    Can group data and functionality together
+    and create many independent instances
+    of a class
+
+Fields = Attributes = Class Variables

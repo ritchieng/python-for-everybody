@@ -1,0 +1,11 @@
+OOP: INHERITANCE
+    Reuse existing class and inherit (borrow) all capabilities
+    of an existing class & add more to make a new class
+
+    "Extending a class"
+
+    Write once and use many times
+
+    The new class (child) has the capabilities + more of the old
+    class (parent)
+

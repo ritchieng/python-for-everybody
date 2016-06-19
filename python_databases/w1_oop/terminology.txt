@@ -1,0 +1,10 @@
+Class: template
+    Dog
+Method/message: defined capability of a class
+    Call a method to the class
+    Activating the code
+    Bark()
+Field/attribute: bit of data in class
+    Variable
+Object/instance: particular instance of a class
+
