@@ -1,0 +1,8 @@
+One to Many or Many to One
+    1 Artist TO MANY Tracks
+    1 Genre TO MANY Tracks
+
+Many to Many
+    Courses and Users
+    Decompose to M-O and O-M relationships
+
