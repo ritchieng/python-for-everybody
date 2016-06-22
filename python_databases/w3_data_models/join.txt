@@ -1,0 +1,44 @@
+JOIN operation
+    links across several tables as part of a select operation
+
+    tell JOIN to use the keys that make the connection
+    between tables using an ON clause
+
+# JOIN Album & Artist
+SELECT Album.title, Artist.name
+FROM Album
+JOIN Artist
+ON Album.artist_id = Artist.id
+    # SELECT Album.title, Artist.name --> what we want to see
+    # Artist.name FROM Album JOIN Artist --> join 2 tables (title and name columns)
+    # ON Album.artist_id = Artist.id --> how tables are linked
+        # starting arrow --> Album.artist_id (foreign key)
+        # ending arrow --> Artist.id (primary key)
+
+# Show source of connection
+SELECT Album.title, Album.artist_id, Artist.id, Artist.name
+FROM Album
+JOIN Artist
+ON Album.artist_id = Artist.id
+
+# JOIN Track & Genre
+# Canonical syntax
+SELECT Track.title, Genre.name
+FROM Track
+JOIN Genre
+ON Track.genre_id = Genre.id
+
+# If no ON clause, there will be combinations
+SELECT Track.title, Track.genre_id, Genre.name, Genre.id
+FROM Track
+JOIN Genre
+ON Track.genre_id = Genre.id
+
+# JOIN --> all possible matches amongst keys
+# ON --> pick keys match (foreign and primary key)
+
+# More complex JOINs
+SELECT Track.title, Artist.name, Album.title, Genre.name
+FROM Track
+JOIN Artist JOIN Album JOIN Genre
+ON Track.genre_id = Genre.id and Track.album_id = Album.id and Album.artist_id = Artist.id

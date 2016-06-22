@@ -1,0 +1,46 @@
+Schema (contract)
+    Many tables
+    Some columns related to other tables
+
+Building Data Model
+    Don't put same string twice (use relationship)
+
+For each piece of info
+    Is the column an object or attribute of another object?
+
+    Once we define objects, we need to define the relationships
+    between objects
+
+Data Modelling of Music Management
+    Track
+    Time
+    Rating
+    Count
+    Album
+    Artist
+    Genre
+
+    Start with most essential function to determine which
+    tables to build
+        Music track management --> start with Tracks
+
+    Move to which are attributes
+        Time --> part of Tracks
+        Rating --> part of Tracks
+        Count --> part of Tracks
+
+
+    Move to which are attributes of objects
+        Album TABLE --> Tracks belong to Album
+        Artist TABLE --> Album belong to Artist
+        Genre Table --> Tracks belong to Genre
+
+Primary key: id (one key for every row to point to other tables)
+Logical key: might use this in a WHERE or ORDER BY clause
+Foreign key
+
+WORK FROM OUTWARD IN --> LEAVES TO BRANCH
+1. Artist
+2. Album
+3. Genre
+4. Tracks
