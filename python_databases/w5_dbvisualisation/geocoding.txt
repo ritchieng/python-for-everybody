@@ -1,0 +1,10 @@
+Data Mining Technologies
+    Hadoop (Apache)
+    Spark (Apache)
+    Redshift (AWS)
+    Pentaho
+
+GeoData
+    Makes a Google Map from user data
+
+

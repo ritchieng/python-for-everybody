@@ -1,0 +1,27 @@
+Page Rank
+    1. Write a simple web page crawler
+    2. Compute simple version of Google's Page Rank algorithm
+    3. Visualize resulting network
+
+Search Engine Architecture
+    1. Web Crawling
+        - Browses the WWW in a methodical and automated manner
+        - Create copy of pages to be indexed for fast searching
+            a. Create list of websites to crawl
+            b. Retrieve page
+            c. Look through for links
+            d. Add links to list
+            e. Repeat
+    2. Index Building
+        - Collects, parses and stores data
+        - Facilitate fast & accurate data retrieval
+        
+    3. Searching
+
+
+
+
+
+
+
+
